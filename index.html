@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Deborah Brassely & Sébastien Robardet – Mariage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --sage: #9caf88;
+      --sage-dark: #7f9071;
+      --bg: #fdfefe;
+      --beige: #f3f1ed;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: var(--bg);
+      color: #3d3d3d;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+      url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee') center/cover;
+      color: white;
+      text-align: center;
+      padding: 150px 20px;
+    }
+
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 4.5em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.3em;
+      letter-spacing: 1px;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 70px 20px;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      margin-bottom: 40px;
+      color: var(--sage-dark);
+      font-size: 2.3em;
+    }
+
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 18px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.06);
+      margin-bottom: 30px;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .highlight {
+      color: var(--sage-dark);
+      font-weight: 500;
+    }
+
+    footer {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: var(--beige);
+      font-style: italic;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Deborah & Sébastien</h1>
+  <p>10 juillet 2027</p>
+</header>
+
+<section>
+  <h2>Le grand jour</h2>
+  <div class="card center">
+    <p><strong>Date :</strong> Samedi 10 juillet 2027</p>
+    <p><strong>Cérémonie civile :</strong> Mairie de Roeulx</p>
+    <p><strong>Heure :</strong> 15 h</p>
+    <br>
+    <p><strong>Réception :</strong> Salle Louis Aragon</p>
+  </div>
+</section>
+
+<section id="rsvp">
+  <h2>RSVP</h2>
+  <div class="card center">
+    <p>Merci de nous confirmer votre présence 💌</p>
+
+    <form action="mailto:TONEMAIL@exemple.com" method="post" enctype="text/plain">
+      <p>
+        <input type="text" name="Nom et prénom" placeholder="Votre prénom et nom" required
+        style="padding:12px;width:80%;max-width:320px;border-radius:25px;border:1px solid #ccc;">
+      </p>
+
+      <p>
+        <label>
+          <input type="radio" name="Présence" value="Oui" required>
+          Oui, je serai présent(e)
+        </label>
+        <br><br>
+        <label>
+          <input type="radio" name="Présence" value="Non">
+          Non, je ne pourrai pas venir
+        </label>
+      </p>
+
+      <p>
+        <button type="submit"
+          style="padding:12px 30px;background:#9caf88;color:white;border:none;border-radius:30px;cursor:pointer;">
+          Envoyer ma réponse
+        </button>
+      </p>
+    </form>
+
+    <p class="highlight">Merci pour votre réponse 🌿</p>
+  </div>
+</section>
+
+<footer>
+  <p>Deborah Brassely & Sébastien Robardet</p>
+</footer>
+
+</body>
+</html>
