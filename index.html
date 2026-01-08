@@ -80,7 +80,17 @@
       font-style: italic;
       color: #555;
     }
-  </style>
+ a.button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 15px 35px;
+  background: #9caf88;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 1.1em;
+}
+ </style>
 </head>
 
 <body>
@@ -101,36 +111,14 @@
   </div>
 </section>
 
-<section id="rsvp">
-  <h2>RSVP</h2>
-  <div class="card center">
-    <p>Merci de nous confirmer votre présence 💌</p>
 
-    <form action="mailto:TONEMAIL@exemple.com" method="post" enctype="text/plain">
-      <p>
-        <input type="text" name="Nom et prénom" placeholder="Votre prénom et nom" required
-        style="padding:12px;width:80%;max-width:320px;border-radius:25px;border:1px solid #ccc;">
-      </p>
 
-      <p>
-        <label>
-          <input type="radio" name="Présence" value="Oui" required>
-          Oui, je serai présent(e)
-        </label>
-        <br><br>
-        <label>
-          <input type="radio" name="Présence" value="Non">
-          Non, je ne pourrai pas venir
-        </label>
-      </p>
+   <a class="button"
+   href="COLLE_ICI_TON_LIEN_GOOGLE_FORMS"
+   target="_blank">
+   Répondre au RSVP
+</a>
 
-      <p>
-        <button type="submit"
-          style="padding:12px 30px;background:#9caf88;color:white;border:none;border-radius:30px;cursor:pointer;">
-          Envoyer ma réponse
-        </button>
-      </p>
-    </form>
 
     <p class="highlight">Merci pour votre réponse 🌿</p>
   </div>
